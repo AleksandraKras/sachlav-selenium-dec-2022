@@ -23,7 +23,7 @@ public class Homework_selenium_01 {
 
         System.out.println("driver.getTitle() = " + driver.getTitle());
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
-        
+        driver.quit();
     }
 }
 
